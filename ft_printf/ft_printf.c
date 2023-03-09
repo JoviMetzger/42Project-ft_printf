@@ -73,51 +73,8 @@ int	ft_printf(const char *format, ...)
 
 // int	main(void)
 // {
-// 	// printf("---Prints a single character---\n");
-// 	// ft_printf("Char value: %c, %c\n", 'h', 0);
-// 	// printf("Char value: %c, %c\n\n", 'h', 0);
-
-// 	// printf("---Prints a string---\n");
-// 	// ft_printf("String value: %s, %s\n", "hello", NULL);
-// 	// printf("String value: %s, %s\n\n", "hello", NULL);
-
-// 	// printf("---The void * pointer (printed in hexadecimal format)---\n");
-// 	// ft_printf("Void value: %p\n", "42");
-// 	// printf("Void value: %p\n\n", "42");
-
-// 	// printf("---Prints a decimal (base 10) number---\n");
-// 	// ft_printf("Decimal value: %d\n", 42);
-// 	// printf("Decimal value: %d\n\n", 42);
-
-// 	// printf("---Prints an integer in base 10---\n");
-// 	// ft_printf("Integer value: %i\n", 42);
-// 	// printf("Integer value: %i\n\n", 42);
-
-// 	// printf("---Prints an unsigned decimal (base 10) number---\n");
-// 	// ft_printf("Unsigned Decimal value: %u, %u\n", 42, -42);
-// 	// printf("Unsigned Decimal value: %u, %u\n\n", 42, -42);
-
-// 	// printf("---Prints a number in hexadecimal (base 16) lowercase format---\n");
-// 	// ft_printf("Lowercase hexadecimal value: %x, %x\n", 160, 'a');
-// 	// printf("Lowercase hexadecimal value: %x, %x\n\n", 160, 'a');
-
-// 	// printf("---Prints a number in hexadecimal (base 16) uppercase format---\n");
-// 	// ft_printf("Uppercase hexadecimal value: %X, %X\n", 160, 'a');
-// 	// printf("Uppercase hexadecimal value: %X, %X\n\n", 160, 'a');
-
-// 	// printf("---Prints a percent sign---\n");
-// 	// ft_printf("Percent sign: %%, %%%%\n");
-// 	// printf("Percent sign: %%, %%%%\n\n");
-
-// 	// printf("---Other---\n");
-// 	// ft_printf("\n");
-// 	// printf("\n");
-
-// 	// ft_printf(".aaaaa%caaaa, %s%d\n", 'H', "Hello", 42);
-// 	// printf(".aaaaa%caaaa, %s%d\n", 'H', "Hello", 42);
-
-// 	// ft_printf(" %d\n", ft_printf("Hello"));
-// 	// printf(" %d\n", printf("Hello"));
+// 	ft_printf("String value: %s\n", "hello world");
+// 	printf("String value: %s\n", "hello world");
 
 // 	int ret;
 // 	printf("\n---broken---\n");
@@ -131,8 +88,6 @@ int	ft_printf(const char *format, ...)
 // 	printf("\nreturn: %i\n", ret);
 // 	ret = printf("aaaa%r");
 // 	printf("\nreturn: %i\n", ret);
-
-// // 	//system("leaks a.out");
 
 // 	return (0);
 // }
