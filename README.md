@@ -1,4 +1,4 @@
-# 📝 ft_printf
+# ✏️ ft_printf
 
 This repository contains my own printf function, called "ft_printf".
 
