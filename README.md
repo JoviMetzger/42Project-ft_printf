@@ -22,12 +22,12 @@ To use the function, follow the steps below:
 
 1. Compile by running the following command:
 ```bash
-make
+$ make
 ```
 2. You can create your own main() or use my main() which I have included/commented out in the ft_printf.c file.
 3. Finally, execute the function using the following command: 
 ```bash
-gcc -Wall -Werror -Wextra libftprintf.a ft_printf.c && ./a.out
+$ gcc -Wall -Werror -Wextra libftprintf.a ft_printf.c && ./a.out
 ```
 
 ## Subject
