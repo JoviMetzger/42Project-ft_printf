@@ -29,7 +29,3 @@ $ make
 ```bash
 $ gcc -Wall -Werror -Wextra libftprintf.a ft_printf.c && ./a.out
 ```
-
-## Subject
-
-You can find the subject for this project [here](https://cdn.intra.42.fr/pdf/pdf/68788/en.subject.pdf).
